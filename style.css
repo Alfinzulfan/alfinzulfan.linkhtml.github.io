@@ -1,0 +1,305 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+.menu{
+   
+    height: 400px;
+    width: 500px;
+    padding-right: 0;
+    justify-content: space-between;
+    margin-left: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ ul a{
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom:  30px;
+    letter-spacing: 2px;
+    display: list-item;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+body{
+    display: flex;
+    gap: 100px;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#e75874,#322514);
+    background-position: center;
+    background-size: cover;
+}
+.wrapper{
+    width: 400px;
+    height: 465px;
+    background: #1d3c45;
+    border-radius: 10px;
+    color: white;
+    cursor: text;
+    
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    cursor: default;
+    color: orangered;
+}
+.wrapper .input-box{
+    display:flow-root;
+    list-style:armenian;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #be1558;
+    
+}
+.input-box .input-field{
+    position: relative; 
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 40px;
+    border-radius: 5;
+}
+.input-box .input-field input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid;
+    border-color: white;
+    outline: none;
+    font-size: 18px;
+    font-family: arial;
+    border-radius: 5px;
+    padding: 15px 15px 15px 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+.input-box .input-field input::placeholder{
+    color: white;
+}
+.input-box .input-field i {
+    position: absolute;
+    left: 15px;
+    top: 50px;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.input-box a{
+    font-size: 15px;
+    margin-left: 25px;
+    font-weight: 600;
+    color: white;
+
+}
+.input-box p{
+    font-size: 13px;
+    margin: 20px 0px 0px 50px;
+    color: white;
+    font-family:arial ;
+    cursor: default;
+    font-weight: 600;
+}
+.wrapper .btn{
+    width: 80%;
+    height: 40px;
+    background: #1d3c45;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: orangered;
+    font-weight: 600;
+    margin: 0px 40px 20px 40px;
+}
+.wrapper i {
+    color: black;
+    padding: 5px 30px 5px 5px;
+    margin-top: -30px;
+}
+ul a:hover{
+    color: red;
+    margin-top: 10px;
+}
+.wrapper i:hover{
+    color: red;
+    margin-left: -10px;
+}
+.input-field:hover{
+    background-color: #1d3c45;
+    border-radius: 10px;
+}
+.btn:hover{
+    background:linear-gradient(#ee4540,#c72c41,#801336,#510a32,#2d142c);
+}
+/*loginpage*/
+.wrapper2{
+    width: 400px;
+    height: 335px;
+    background: #1d3c45;
+    border-radius: 10px;
+    cursor: text;
+}
+.wrapper2 h1{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    cursor: default;
+}
+.wrapper2 .input-box{
+    display:flow-root;
+    list-style:armenian;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    background: #be1558;
+}
+.wrapper2 .btn {
+    width: 80%;
+    height: 40px;
+    background: #1d3c45;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: orangered;
+    font-weight: 600;
+    margin: 30px 0 10px 40px;
+}
+.wrapper2 i {
+    color: black; 
+    padding: 10px 30px 5px 5px;
+    margin-top: -34px;
+}
+.wrapper2 i:hover{
+    color: red;
+    margin-left: -10px;
+}
+.wrapper2 .btn:hover{
+    background:linear-gradient(#ee4540,#c72c41,#801336,#510a32,#2d142c);
+}
+
+/*content page*/
+.content{
+    border: solid black;
+    height: auto;
+    margin-right: 100px;
+    justify-content: end;
+    background-color: #1d3c45;
+    border-radius: 10px;
+    border: none;
+    cursor: default;
+}
+h1{
+    font-size: 50px;
+    color: orangered;
+    text-align: center;
+    margin: 10px 50px 20px 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.content p{
+margin: 0px 20px 10px 20px;
+font-size: 36px;
+font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+color: rgb(219, 216, 216);
+}
+.inputcntn{
+    background-color: #be1558;
+}
+/*about page*/
+.about{
+    height: 300px;
+    margin-right: 100px;
+    justify-content: end;
+    background-color: #1d3c45;
+    border-radius: 10px;
+    border: none;  
+}
+.wrapper3 p{
+    margin: 50px 20px;
+    font-size: 36px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(219, 216, 216);
+    }
+.bkgabout{
+    background-color: #be1558;
+    margin-top: -40px;
+}
+.wrapper3{
+    cursor: default;
+}
+/*contact*/
+.contact{
+    min-height: 100vh;
+    padding: 50px;
+    text-align: center;
+}
+.container{
+    border: none red;
+    max-width: 800px;
+    margin: 0 auto;
+    color: rgb(219, 216, 216);
+}
+.container h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:30px;
+}
+.contact-form{
+    text-align: left;
+}
+.contact-form h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.form-grup{
+    margin-bottom: 20px;
+}
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+}
+input:focus
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 8px red;
+}
+button{
+    display: inline-block;
+    padding: 12px 24px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:hover{
+    background-color:orangered;
+}
+.contact-info{
+    text-align: left;
+}
+.contact-info h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+.contact-info p{
+    margin-bottom: 16px;
+
+}
+.contact-info i{
+    margin-right: 16px;
+}
